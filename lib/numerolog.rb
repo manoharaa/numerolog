@@ -2,7 +2,7 @@ NUMEROLOGY = { A: 1, J: 1, S: 1, B: 2, K: 2, T: 2, C: 3, L: 3, U: 3, D: 4, M: 4,
 module Numerolog	
 	# brings numerical sum of all characters based on their position (numerology)
 	
-	class << 
+	class << self
 		attr_accessor :sum
 		def gematria(str)
 			@sum = 0
