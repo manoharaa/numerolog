@@ -1,2 +1,6 @@
 # numerolog
-Numerology Science: Get your birthday numbers, lucky numbers, Turn any words/string to numbers to find out your lucky nos..
+Get gematria, Turn any words/string to numbers to find out your lucky nos/destiny no based on numerology.
+
+Eg: 
+
+Numerolog.gematria("Any string")
