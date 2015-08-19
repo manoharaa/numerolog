@@ -3,7 +3,11 @@ module Numerolog
 	# brings numerical sum of all characters based on their position (numerology)
 	
 	class << self
+		
+		private
 		attr_accessor :sum
+		
+		public
 		def gematria(str)
 			@sum = 0
 			str.each_char do |c|
@@ -21,6 +25,7 @@ module Numerolog
 			replace gematria
 		end
 
+		private
 		def sum_of_digits
 			until @sum < 10
 				@sum = @sum.to_s.split('').map(&:to_i).reduce(&:+)
